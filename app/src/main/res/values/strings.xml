@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SwipeNavigation</string>
+    <string name="chats">Chats</string>
+    <string name="user_image">User Image</string>
+    <string name="empty_box">Empty Box</string>
+    <string name="no_chats_message">No chats found here</string>
 </resources>
