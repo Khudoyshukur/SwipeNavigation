@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import uz.androdev.swipenavigation.base.BaseFragment
+import uz.androdev.swipenavigation.base.BaseSwipeableFragment
 import uz.androdev.swipenavigation.databinding.FragmentChatBinding
 
 /**
@@ -14,7 +14,7 @@ import uz.androdev.swipenavigation.databinding.FragmentChatBinding
  * Email: Khudoyshukur.Juraev.001@mail.ru
  */
 
-class ChatFragment : BaseFragment<FragmentChatBinding>(FragmentChatBinding::inflate) {
+class ChatFragment : BaseSwipeableFragment<FragmentChatBinding>(FragmentChatBinding::inflate) {
     private val args: ChatFragmentArgs by navArgs()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
